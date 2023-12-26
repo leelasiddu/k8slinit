@@ -1,0 +1,16 @@
+
+extends: default
+
+rules:
+  # 200 chars should be enough, but don't fail if a line is longer
+  line-length:
+    max: 200
+    level: warning
+
+  # don't bother me with these rules
+  indentation: disable
+  empty-lines:  disable
+  trailing-spaces: disable
+  new-line-at-end-of-file: disable
+  commas: disable
+  colons: disable
